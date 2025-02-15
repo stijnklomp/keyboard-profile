@@ -1,0 +1,271 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": [
+        {
+            "command": "closePane",
+            "keys": "ctrl+shift+w"
+        },
+        {
+            "command": "closePane",
+            "keys": "ctrl+w"
+        },
+        {
+            "command": {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": "paste",
+            "keys": "ctrl+shift+v"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "openNewTabDropdown",
+            "keys": "ctrl+shift+space"
+        },
+        {
+            "command": "openSettings",
+            "keys": "ctrl+comma"
+        },
+        {
+            "command": "openSystemMenu",
+            "keys": "alt+space"
+        },
+        {
+            "command": "previousTab",
+            "keys": "ctrl+shift+tab"
+        },
+        {
+            "command": "resizePaneDown",
+            "keys": "alt+shift+down"
+        },
+        {
+            "command": "resizePaneLeft",
+            "keys": "alt+shift+left"
+        },
+        {
+            "command": "resizePaneRight",
+            "keys": "alt+shift+right"
+        },
+        {
+            "command": "resizePaneUp",
+            "keys": "alt+shift+up"
+        },
+        {
+            "command": "scrollDownPage",
+            "keys": "ctrl+shift+down"
+        },
+        {
+            "command": "scrollToBottom",
+            "keys": "ctrl+shift+end"
+        },
+        {
+            "command": "scrollToTop",
+            "keys": "ctrl+shift+home"
+        },
+        {
+            "command": "scrollUpPage",
+            "keys": "ctrl+shift+up"
+        },
+        {
+            "command": "selectAll",
+            "keys": "ctrl+shift+a"
+        },
+        {
+            "command": "toggleQuakeWindow",
+            "keys": "win+sc(41)"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "down"
+            },
+            "keys": "ctrl+enter"
+        },
+        {
+            "command": {
+                "action": "splitPane",
+                "split": "right"
+            },
+            "keys": "ctrl+shift+enter"
+        },
+        {
+            "command": "swapPaneNext",
+            "keys": "ctrl+up"
+        },
+        {
+            "command": "swapPanePrevious",
+            "keys": "ctrl+down"
+        },
+        {
+            "command": "switchTab0",
+            "keys": "ctrl+alt+1"
+        },
+        {
+            "command": "switchTab1",
+            "keys": "ctrl+alt+2"
+        },
+        {
+            "command": "switchTab2",
+            "keys": "ctrl+alt+3"
+        },
+        {
+            "command": "switchTab3",
+            "keys": "ctrl+alt+4"
+        },
+        {
+            "command": "switchTab4",
+            "keys": "ctrl+alt+5"
+        },
+        {
+            "command": "switchTab5",
+            "keys": "ctrl+alt+6"
+        },
+        {
+            "command": "switchTab6",
+            "keys": "ctrl+alt+7"
+        },
+        {
+            "command": "switchTab7",
+            "keys": "ctrl+alt+8"
+        },
+        {
+            "command": "switchTabLast",
+            "keys": "ctrl+alt+9"
+        },
+        {
+            "command": "toggleCommandPalette",
+            "keys": "ctrl+shift+p"
+        },
+        {
+            "command": "toggleFullscreen",
+            "keys": "f11"
+        },
+        {
+            "command": "toggleMarkMode",
+            "keys": "ctrl+shift+m"
+        },
+        {
+            "command": "copy",
+            "keys": "ctrl+shift+c"
+        },
+        {
+            "command": "decreaseFontSize",
+            "keys": "ctrl+minus"
+        },
+        {
+            "command": "increaseFontSize",
+            "keys": "ctrl+plus"
+        },
+        {
+            "command": "movePaneFocusNext",
+            "keys": "ctrl+]"
+        },
+        {
+            "command": "movePaneFocusPrevious",
+            "keys": "ctrl+["
+        },
+        {
+            "command": "moveTabBackward",
+            "keys": "ctrl+shift+comma"
+        },
+        {
+            "command": "moveTabForward",
+            "keys": "ctrl+shift+period"
+        },
+        {
+            "command": "newTab",
+            "keys": "ctrl+t"
+        },
+        {
+            "command": "newWindow",
+            "keys": "ctrl+shift+n"
+        },
+        {
+            "command": "nextTab",
+            "keys": "ctrl+tab"
+        },
+        {
+            "command": "openSettingsJson",
+            "keys": "ctrl+alt+comma"
+        }
+    ],
+    "confirmCloseAllTabs": false,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+    "disableAnimations": true,
+    "experimental.detectURLs": false,
+    "language": "en-US",
+    "newTabMenu": [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": {
+        "defaults": {},
+        "list": [
+            {
+                "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+                "hidden": false,
+                "name": "Debian",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "colorScheme": "Campbell",
+                "commandline": "\"C:\\Program Files (x86)\\PowerShell\\7\\pwsh.exe\"",
+                "guid": "{3249634f-b044-4da7-93c2-da2db72a6e9f}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell 7 (x86)",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "automatic",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "bar",
+                "font": {
+                    "face": "Cascadia Mono",
+                    "size": 12
+                },
+                "guid": "{99fd2e8c-98d5-41ec-ba1b-8978a990f085}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            }
+        ]
+    },
+    "schemes": [],
+    "startOnUserLogin": true,
+    "themes": []
+}
