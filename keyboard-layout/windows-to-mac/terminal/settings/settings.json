@@ -210,7 +210,7 @@
         {
             "command": "openSettingsJson",
             "keys": "ctrl+alt+comma"
-        }
+        }     
     ],
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
@@ -219,6 +219,7 @@
     "disableAnimations": true,
     "experimental.detectURLs": false,
     "language": "en-US",
+    "launchMode": "maximized",
     "newTabMenu": [
         {
             "type": "remainingProfiles"
